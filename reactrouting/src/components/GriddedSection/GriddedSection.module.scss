@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6vw 8vw;
+    gap: 2vw;
+
+    img{
+        width: 100%;
+    }
+}

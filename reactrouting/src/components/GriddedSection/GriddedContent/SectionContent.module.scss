@@ -1,0 +1,35 @@
+@use '../../../Styles/variables' as *;
+@use '../../../Styles/placeholders' as *;
+
+.timelessLuxury{
+    color: white;
+    h1{
+        @extend %playfair;
+        font-size: 3.5vw;
+        color: $DarkGreen2;
+        margin-top: 0;
+    }
+
+    p{
+        font-size: 1.5vw;
+        @extend %josefin;
+        font-weight: 300;
+    }
+}
+
+.heritage{
+    color: white;
+    h1{
+        @extend %playfair;
+        font-size: 3.5vw;
+        color: $Gold;
+        margin-top: 0;
+    }
+
+    p{
+        font-size: 1.5vw;
+        @extend %josefin;
+        font-weight: 300;
+    }
+
+}
