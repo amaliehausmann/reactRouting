@@ -1,0 +1,26 @@
+@use "../../Styles/variables" as *;
+@use "../../Styles/placeholders" as *;
+
+.navStyling {
+  background: rgb(5, 98, 7);
+  background: radial-gradient(circle, rgb(6, 95, 7) 9%, rgb(3, 43, 1) 100%);
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+  z-index: 999;
+
+  ul {
+    display: flex;
+    margin: auto;
+
+    li {
+      list-style: none;
+      padding: 1.5vw 2vw;
+
+      a {
+        text-decoration: none;
+        @extend %playfair;
+        font-size: 1.8vw;
+      }
+    }
+  }
+}

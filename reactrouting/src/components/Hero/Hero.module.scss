@@ -1,0 +1,40 @@
+@use "../../Styles/placeholders" as *;
+@use "../../Styles/variables" as *;
+
+.heroStyling {
+  position: relative;
+  box-shadow: 0 8px 6px -6px black;
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    font-size: 10vw;
+    color: $Gold;
+    @extend %playfair;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: auto;
+    font-style: italic;
+
+    background: -webkit-linear-gradient(#ffbb0f, #704501);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    position: absolute;
+    color: $White;
+    top: 50%;
+    right: 12%;
+    margin: auto;
+    @extend %josefin;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3vw;
+  }
+}
